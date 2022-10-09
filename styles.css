@@ -1,9 +1,20 @@
+/*GENERAL STYLES*/
+
+:root {
+    --second-font: "Raleway", sans-serif;
+    --accent-color: #2196F3;
+    --main-color: #212121;
+    --second-color: #757575;
+    --third-color: #FFFFFF;
+}
 
 body {
-    font-family: font-family: 'Roboto', sans-serif;;
+    font-family:'Roboto', sans-serif;;
 }
+
+
      .logo {
-font-family: 'Raleway';
+font-family: var(--second-font);
 font-style: normal;
 font-weight: 700;
 font-size: 26px;
@@ -12,7 +23,7 @@ text-decoration: none;
 }
 
 .first-part {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 .last-part {
    color: #000; 
@@ -26,75 +37,57 @@ text-decoration: none;
 }
 
 .link:hover, .link:focus {
-    color: tomato;
+    color: var(--accent-color);
 }
 .header-nav-link  {
-font-family: 'Roboto';
-font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-color: #212121;
+color: var(--main-color);
        }
 
 .header-nav-studio {
-    font-family: 'Roboto';
-font-style: normal;
+  
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 
-color: #2196F3;
+color: var(--accent-color);
 }
 .link-contacts {
-    font-family: 'Roboto';
-font-style: normal;
+   
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 
-color: #2196F3;
+color: var(--accent-color);
 }
 .link-tel  {
-    font-family: 'Roboto';
-    font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-color: #757575;
+color: var(--second-color);
 }
 
 .header-btn {
     font-weight: 700;
 font-size: 16px;
-line-height: 1.87x;
+line-height: 1.87;
 display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
-color: #FFFFFF;
-background: #2196F3;
+color: var(--third-color);
+background: var(--accent-color);
 }
 .btn {
-    background: #2196F3;
+    background: var(--accent-color);
 }
-}
-.hero-btn {
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height:1.62;
-text-align: center;
-letter-spacing: 0.03em;
 
-color: #212121;
-
-}
 .hero-text {
     font-weight: 900;
 font-size: 44px;
@@ -103,31 +96,11 @@ text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 
-color: #FFFFFF;
+color: var(--third-color);
 
 }
 .hero {
     background: #2F303A;
-
-}
-.aboute-title {
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 36px;
-letter-spacing: 0.06em;
-color: #212121;
-
-}
-.about-title-after {
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.87;
-letter-spacing: 0.03em;
-color: #757575;
 
 }
 .items {
@@ -136,71 +109,88 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #212121;
+color: var(--main-color);
 
 }
 .items-text {
-    font-weight: 400;
+    
 font-size: 14px;
 line-height: 2;
 letter-spacing: 0.03em;
-color: #757575;
+color: var(--second-color);
 
 }
 .lead {
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
+    
+
 font-size: 36px;
 line-height: 1.16;
 text-align: center;
 letter-spacing: 0.03em;
 
-color: #212121;
+color: var(--main-color);
 
 }
 .comanda {
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
+    
 font-size: 16px;
 line-height: 1.18;
 text-align: center;
 letter-spacing: 0.03em;
-color: #212121;
+color: var(--main-color);
 
 }
 .profession {
-    font-family: 'Roboto';
-font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.18;
 text-align: center;
 letter-spacing: 0.03em;
-color: #212121;
+color: var(--main-color);
 
 }
 .adress-contacts link {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
+    
     font-size: 14px;
-    line-height: 24px;
-    /* or 171% */
-    
+    line-height:1,71;
     letter-spacing: 0.03em;
-    
-    color: #FFFFFF;
+    color: var(--third-color);
     
 }
 .mobile-contacts link {
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
+   
 font-size: 14px;
-line-height: 24px;
+line-height: 1,71;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
+
+}
+ Portfolio
+
+.hero-btn {
+font-weight: 500;
+font-size: 16px;
+line-height:1.62;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--main-color);
+
+}
+
+.aboute-title {
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+letter-spacing: 0.06em;
+color: var(--main-color);
+
+}
+.about-title-after {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+color: var(--second-color);
 
 }
