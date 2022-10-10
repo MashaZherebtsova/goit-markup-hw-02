@@ -80,14 +80,13 @@ color: var(--second-color);
     font-weight: 700;
 font-size: 16px;
 line-height: 1.87
-letter-spacing: 0.06em;
 color: var(--third-color);
 cursor: pointer;
 }
 .btn {
     cursor: pointer;
     .   :hover,
-    .   :focus{
+    .   :focus
       background-color: var(--accent-color); 
 }
 
@@ -153,16 +152,17 @@ color: var(--main-color);
 
 }
 
-.address-contacts link {
+.address-contacts {
     font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 24px;
 color: #FFFFFF;
 
-}
 
 }
+
+
  Portfolio
 
 .hero-btn {
@@ -191,4 +191,8 @@ color: var(--second-color);
 
 }
 
+.floor {
 
+background: #2F303A;
+
+}
