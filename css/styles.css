@@ -1,7 +1,8 @@
 /*GENERAL STYLES*/
 
 :root {
-    --second-font: "Raleway", sans-serif;
+    
+    --second-font: 'Raleway', sans-serif;
     --accent-color: #2196F3;
     --main-color: #212121;
     --second-color: #757575;
@@ -9,7 +10,7 @@
 }
 
 body {
-    font-family:'Roboto', sans-serif;;
+    font-family:'Roboto', sans-serif;
 }
 
 
@@ -28,6 +29,9 @@ text-decoration: none;
 .last-part {
    color: #000; 
 } 
+.second-part {
+    color: #FFFFFF;
+}
 .list {
     list-style: none;
 }
@@ -88,6 +92,8 @@ cursor: pointer;
     .   :hover,
     .   :focus
       background-color: var(--accent-color); 
+      font-family:inherit;
+      list-style: none;
 }
 
 .hero-text {
@@ -143,12 +149,10 @@ color: var(--main-color);
 
 }
 .profession {
-font-weight: 500;
+font-weight: 400;
 font-size: 16px;
-line-height: 1.18;
-text-align: center;
-letter-spacing: 0.03em;
-color: var(--main-color);
+line-height: 19px;
+color: #757575;
 
 }
 
@@ -171,13 +175,14 @@ font-size: 16px;
 line-height:1.62;
 letter-spacing: 0.03em;
 background color: var(--main-color);
+font-family:inherit;
 
 }
 
 .aboute-title {
 font-weight: 700;
 font-size: 18px;
-line-height: 36px;
+line-height: 2;
 letter-spacing: 0.06em;
 color: var(--main-color);
 
@@ -194,5 +199,14 @@ color: var(--second-color);
 .floor {
 
 background: #2F303A;
+
+}
+
+.mail-contacs {
+    font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+color: rgba(255, 255, 255, 0.6);
 
 }
