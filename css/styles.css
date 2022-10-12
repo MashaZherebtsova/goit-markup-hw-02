@@ -16,7 +16,6 @@ body {
 
      .logo {
 font-family: var(--second-font);
-font-style: normal;
 font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
@@ -88,7 +87,7 @@ line-height: 1.87;
 color: var(--third-color);
 cursor: pointer;
 }
-.btn:hover, :focus {
+.btn:hover, .btn:focus {
 font-weight: 500;
 font-size: 16px;
 line-height:1.62;
@@ -154,26 +153,18 @@ color: var(--main-color);
 
 }
 .profession {
-font-weight: 400;
 font-size: 16px;
-line-height: 19px;
+line-height: 1.18;
 color: #757575;
 
 }
 
 .address-contacts {
-    font-style: normal;
-font-weight: 400;
+font-style: normal;
 font-size: 14px;
 line-height: 24px;
 color: #FFFFFF;
-
-
 }
-
-
- Portfolio
-
 
 .aboute-title {
 font-weight: 700;
@@ -184,7 +175,6 @@ color: var(--main-color);
 
 }
 .about-title-after {
-font-weight: 400;
 font-size: 16px;
 line-height: 1.87;
 letter-spacing: 0.03em;
@@ -199,13 +189,13 @@ background: #2F303A;
 }
 
 .mail-contacs {
-    font-style: normal;
+
 font-size: 14px;
 line-height: 1.71;
 color: rgba(255, 255, 255, 0.6);
 
 }
-.hero-header-btn {
+.hero-header-btn .btn {
 font-weight: 500;
 font-size: 16px;
 line-height:1.62;
