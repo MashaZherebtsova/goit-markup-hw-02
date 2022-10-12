@@ -88,13 +88,16 @@ line-height: 1.87;
 color: var(--third-color);
 cursor: pointer;
 }
-.btn {
-    cursor: pointer;
-    .   :hover,
-    .   :focus
-      background-color: var(--accent-color); 
-      font-family:inherit;
-      list-style: none;
+.btn:hover, :focus {
+font-weight: 500;
+font-size: 16px;
+line-height:1.62;
+letter-spacing: 0.03em;
+font-family:inherit;
+cursor:pointer;
+font-family:inherit; 
+list-style: none;
+
 }
 
 .hero-text {
@@ -171,15 +174,6 @@ color: #FFFFFF;
 
  Portfolio
 
-.hero-btn {
-font-weight: 500;
-font-size: 16px;
-line-height:1.62;
-letter-spacing: 0.03em;
-background-color: var(--main-color);
-font-family:inherit;
-
-}
 
 .aboute-title {
 font-weight: 700;
@@ -210,4 +204,11 @@ font-size: 14px;
 line-height: 1.71;
 color: rgba(255, 255, 255, 0.6);
 
+}
+.hero-header-btn {
+font-weight: 500;
+font-size: 16px;
+line-height:1.62;
+letter-spacing: 0.03em;
+font-family:inherit;
 }
