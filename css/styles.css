@@ -90,6 +90,7 @@ font-weight: 700;
 .btn:hover, .btn:focus {
 cursor:pointer;
 list-style: none;
+color: var(--accent-color);
 }
 
 .hero-text {
